@@ -10,7 +10,7 @@ bool sensorActivo = false;
 
 void setup() {
   Serial.begin(115200);
-  SerialBT.begin("SensorFoco_de_Stalyn.");
+  SerialBT.begin("SensorFoco_de_kevin");
 
   pinMode(RELE, OUTPUT);
   pinMode(TRIG, OUTPUT);
